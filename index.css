@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+a, li {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 213, 0);
+    text-decoration: none;
+    transition-duration: 0.30s;
+}
+
+a:hover, li:hover {
+color: white;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgb(97, 97, 97);
+    z-index: 100;
+}
+
+.logo {
+    cursor: pointer;
+    width: 250px;
+}
+
+.logo:hover {
+opacity: 0.7;
+}
+
+.logo:active {
+    opacity: 0.4;
+}
+
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding-right: 75px;
+    font-size: 24px;
+}
+
+.contact-button {
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 213, 0);
+    font-size: 24px;
+    padding: 10px 15px;
+}
+
+body {
+    background-color: grey;
+}
+
+.hero-img {
+display: block;
+height: auto;
+width: 100%;
+
+}
+
+.hero {
+    height: 725px;
+    overflow: hidden;
+    z-index: 97;
+    position: relative;
+}
+
+.hero-button {
+    z-index: 98;
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 48px;
+    color: rgb(255, 213, 0);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-width: 4px;
+    border-color: rgb(255, 213, 0);
+    opacity: 0.7;
+    border-style: solid;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 25px rgba(0, 0, 0, 0.7);
+    transition: 0.15s;
+}
+
+
+.hero-button:hover {
+    background-color: rgb(255, 213, 0);
+    border-color: rgb(255, 213, 0);
+    border-width: 4px;
+    color: rgb(28, 28, 28);
+}
+
+.section-a {
+    display: flex;
+    align-items: center;
+    height: 350px;
+    width: 100%;
+    background-color: black;
+    z-index: 95;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.section-a h1 {
+    color: rgb(255, 213, 0);
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.yellow-bar {
+    height: 100%;
+    width: 40px;
+    background-color: rgb(255, 213, 0);
+    align-items: left;
+}
+
+.section-a-text {
+    float: left;
+    width: 70%;
+    margin: 0;
+    overflow: hidden;
+    color: white;
+}
+
+.section-a-text p {
+    margin-top: 30px;
+    margin-left: 75px;
+    width: 1000px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+
+
+.up-button {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+    background-color: rgb(205, 205, 205);
+    border: none;
+    border-radius: 30px;
+   font-size: 45px;
+}
+
+.unit-logo {
+    width: 300px;
+}
+
+.unit-logo:hover {
+    width: 330px;
+}
+
+.unit-logo:active {
+    opacity: 0.6;
+}
+
+.section-a-text h3 {
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+    font-style: italic;
+    margin-left: 60px;
+    font-weight: 30;
+    font-size: 18px;
+}
+
+#p-click {
+    color: rgb(183, 183, 183);
+    font-size: 22px;
+    font-style: italic;
+}
+
+.instagram-icon {
+    height: 200px;
+    width: auto;
+    display: block;
+}
+
+.hero-button {
+    duration: 0.15s;
+}
+
+.hero-button:hover {
+opacity: 0.7;
+}

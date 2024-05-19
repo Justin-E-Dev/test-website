@@ -1,0 +1,24 @@
+.grid-container {
+  width: fit-content;
+  overflow: hidden;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .column img {
+    display: block;
+    padding: 15px;
+    max-width: 450px;
+    border-radius: 27px;
+    flex-shrink: 0;
+  }
+
+.column {
+  display: flex;
+  justify-content: space-evenly;
+  float: left;
+  width: auto;
+  margin-bottom: 10px;
+  flex-direction: column;
+}

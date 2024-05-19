@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+a, li {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 213, 0);
+    text-decoration: none;
+    transition-duration: 0.30s;
+}
+
+a:hover, li:hover {
+color: white;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgb(97, 97, 97);
+    z-index: 100;
+}
+
+.logo {
+    cursor: pointer;
+    width: 250px;
+}
+
+.logo:hover {
+opacity: 0.7;
+}
+
+.logo:active {
+    opacity: 0.4;
+}
+
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding-right: 75px;
+    font-size: 24px;
+}
+
+.contact-button {
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 213, 0);
+    font-size: 24px;
+    padding: 10px 15px;
+}
+
+body {
+    background-color: grey;
+    
+}
+
+
+.hero-img {
+  display: block;
+  height: auto;
+  width: 100%;
+  
+  }
+  
+  .hero {
+      height: 725px;
+      overflow: hidden;
+      z-index: 97;
+      position: relative;
+  }
+  
+  .hero-button {
+      z-index: 98;
+      position: absolute;
+      bottom: 70px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 48px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-width: 8px;
+      border-color: white;
+      opacity: 0.7;
+      border-style: solid;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 15px;
+      padding-right: 15px;
+      border-radius: 20px;
+      box-shadow: 0px 0px 40px 25px rgba(0, 0, 0, 0.7);
+  }
+
+/*
+.grid-container {
+  width: fit-content;
+  overflow: hidden;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .column img {
+    display: block;
+    padding: 15px;
+    max-width: 450px;
+    border-radius: 27px;
+    flex-shrink: 0;
+  }
+
+.column {
+  display: flex;
+  justify-content: space-evenly;
+  float: left;
+  width: auto;
+  margin-bottom: 10px;
+  flex-direction: column;
+
+
+}
+
+*/
+
+.gallery-banner {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 214, 33);
+    font-size: 40px;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 0px;
+justify-content: center;
+align-content: center;
+margin-left: 45px;
+}
+
+.pghfolder {
+    width: 450px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.pgh-folder {
+    width: 500px;
+    height: 400px;
+    background-color: rgb(65, 65, 65);
+    border-style: solid;
+    border-color: rgb(255, 214, 33);
+    border-width: 3px;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    color:  rgb(255, 214, 33);
+    box-sizing: border-box;
+    margin-top: 20px;
+
+
+}
+
+.pgh-folder:hover {
+    background-color: rgb(206, 205, 205);
+    border-color: rgb(206, 205, 205);
+    color:  rgb(183, 149, 0);
+}

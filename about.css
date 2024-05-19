@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.paragraph-1-container {
+  width: 500px;
+  height: 100%;
+  margin-right: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.paragraph-1 {
+  width: 500px;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.self-portrait-container {
+margin-left: 200px;
+}
+
+.about-hero {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.personal {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: inline-block;
+vertical-align: top;
+top: 0px;
+width: 800px;
+}
+
+.personal-color {
+  background-color: rgb(95, 95, 95);
+  margin-top: 40px;
+  margin-bottom: 80px;
+  height: 450px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.video-1 {
+margin-top: 65px;
+margin-right: 40px;
+}
+
+#scroll-top {
+  z-index: 100;
+  margin: 0px;
+  vertical-align: top;
+  display: flex;
+  justify-content: space-evenly;
+}
